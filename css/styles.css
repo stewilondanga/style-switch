@@ -103,13 +103,14 @@ table thead:before {
   }
 }
 
-/*table td, table th {
+table td, table th {
   text-align: left;
   padding: 0px 20px;
   height: 48px;
   border-radius: 2px;
 }
-table th {
+
+/*table th {
   font-weight: 500;
   color: white;
 }
