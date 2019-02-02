@@ -78,7 +78,7 @@ table {
   transition: all 0.3s;
 }
 
-/*table thead:before {
+table thead:before {
   content: "";
   top: 10px;
   left: 5px;
@@ -88,7 +88,8 @@ table {
   position: absolute;
   z-index: -1;
 }
-@media screen and (max-width: 630px) {
+
+/*@media screen and (max-width: 630px) {
   table thead {
     display: none;
   }
