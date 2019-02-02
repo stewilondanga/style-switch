@@ -180,12 +180,13 @@ input[type="checkbox"]:checked~label:before {
   content: "Switch to Style 2";
 }
 
-/*input[type="checkbox"]:checked ~ table tr:nth-child(2n) td {
+input[type="checkbox"]:checked~table tr:nth-child(2n) td {
   background-color: #edf6e3;
   color: #223110;
   border-color: #8BC34A;
 }
-input[type="checkbox"]:checked ~ table tr:nth-child(2n) td .button {
+
+/*input[type="checkbox"]:checked ~ table tr:nth-child(2n) td .button {
   background-color: #8BC34A;
 }
 input[type="checkbox"]:checked ~ table tr:nth-child(2n + 1) td {
