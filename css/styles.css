@@ -190,12 +190,13 @@ input[type="checkbox"]:checked~table tr:nth-child(2n) td .button {
   background-color: #8BC34A;
 }
 
-/*input[type="checkbox"]:checked ~ table tr:nth-child(2n + 1) td {
+input[type="checkbox"]:checked~table tr:nth-child(2n + 1) td {
   background-color: #eff1f9;
   color: #161c3a;
   border-color: #5C6BC0;
 }
-input[type="checkbox"]:checked ~ table tr:nth-child(2n + 1) .button {
+
+/*input[type="checkbox"]:checked ~ table tr:nth-child(2n + 1) .button {
   background-color: #5C6BC0;
 }
 input[type="checkbox"]:checked ~ table thead:before {
