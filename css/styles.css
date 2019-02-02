@@ -37,10 +37,11 @@ body {
   user-select: none;
 }
 
-/*input[type="checkbox"] {
+input[type="checkbox"] {
   display: none;
 }
-input[type="checkbox"] ~ label {
+
+/*input[type="checkbox"] ~ label {
   background-color: #000;
   color: white;
   display: inline-block;
