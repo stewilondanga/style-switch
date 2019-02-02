@@ -161,7 +161,7 @@ table td.with--button {
   }
 }
 
-/*table .button {
+table .button {
   background-color: black;
   color: white;
   border: none;
@@ -172,7 +172,7 @@ table td.with--button {
   border-radius: 2px;
 }
 
-input[type="checkbox"]:checked ~ label {
+/*input[type="checkbox"]:checked ~ label {
   background-color: #5C6BC0;
 }
 input[type="checkbox"]:checked ~ label:before {
