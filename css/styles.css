@@ -95,14 +95,15 @@ table thead:before {
   }
 }
 
-/*@media screen and (max-width: 630px) {
+@media screen and (max-width: 630px) {
   table tr {
     width: 100%;
     display: block;
     margin-bottom: 30px;
   }
 }
-table td, table th {
+
+/*table td, table th {
   text-align: left;
   padding: 0px 20px;
   height: 48px;
