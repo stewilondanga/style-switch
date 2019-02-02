@@ -196,10 +196,11 @@ input[type="checkbox"]:checked~table tr:nth-child(2n + 1) td {
   border-color: #5C6BC0;
 }
 
-/*input[type="checkbox"]:checked ~ table tr:nth-child(2n + 1) .button {
+input[type="checkbox"]:checked~table tr:nth-child(2n + 1) .button {
   background-color: #5C6BC0;
 }
-input[type="checkbox"]:checked ~ table thead:before {
+
+/*input[type="checkbox"]:checked ~ table thead:before {
   background-color: #5C6BC0;
 }
 
