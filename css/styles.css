@@ -110,11 +110,12 @@ table td, table th {
   border-radius: 2px;
 }
 
-/*table th {
+table th {
   font-weight: 500;
   color: white;
 }
-table td {
+
+/*table td {
   width: 1px;
   background-color: #EEEEEE;
   border-left: 2px solid black;
