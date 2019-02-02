@@ -89,12 +89,13 @@ table thead:before {
   z-index: -1;
 }
 
-/*@media screen and (max-width: 630px) {
+@media screen and (max-width: 630px) {
   table thead {
     display: none;
   }
 }
-@media screen and (max-width: 630px) {
+
+/*@media screen and (max-width: 630px) {
   table tr {
     width: 100%;
     display: block;
