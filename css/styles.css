@@ -41,7 +41,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-/*input[type="checkbox"] ~ label {
+input[type="checkbox"]~label {
   background-color: #000;
   color: white;
   display: inline-block;
@@ -52,7 +52,8 @@ input[type="checkbox"] {
   cursor: pointer;
   transition: box-shadow 0.3s;
 }
-input[type="checkbox"] ~ label:hover {
+
+/*input[type="checkbox"] ~ label:hover {
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
 }
 input[type="checkbox"] ~ label:before {
