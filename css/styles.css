@@ -128,10 +128,11 @@ table td:first-of-type {
   font-weight: 500;
 }
 
-/*table td.with--button {
+table td.with--button {
   padding: 0;
 }
-@media screen and (max-width: 630px) {
+
+/*@media screen and (max-width: 630px) {
   table td {
     display: flex;
     align-items: center;
