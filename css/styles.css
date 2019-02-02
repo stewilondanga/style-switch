@@ -132,7 +132,7 @@ table td.with--button {
   padding: 0;
 }
 
-/*@media screen and (max-width: 630px) {
+@media screen and (max-width: 630px) {
   table td {
     display: flex;
     align-items: center;
@@ -141,22 +141,27 @@ table td.with--button {
     white-space: normal;
     line-height: 20px;
   }
+
   table td:not(.with--button):before {
     font-weight: 500;
     margin-right: 5px;
     padding: 17px 7px;
   }
+
   table td:nth-child(1)::before {
     content: "Title:";
   }
+
   table td:nth-child(2)::before {
     content: "Category:";
   }
+
   table td:nth-child(3):before {
     content: "Published on:";
   }
 }
-table .button {
+
+/*table .button {
   background-color: black;
   color: white;
   border: none;
