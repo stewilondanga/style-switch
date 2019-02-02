@@ -57,11 +57,11 @@ input[type="checkbox"]~label:hover {
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
 }
 
-/*input[type="checkbox"] ~ label:before {
+input[type="checkbox"]~label:before {
   content: "Switch to Style 1";
 }
 
-.button {
+/*.button {
   outline: none !important;
   text-decoration: none;
   line-height: 1rem;
