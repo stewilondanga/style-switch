@@ -115,14 +115,15 @@ table th {
   color: white;
 }
 
-/*table td {
+table td {
   width: 1px;
   background-color: #EEEEEE;
   border-left: 2px solid black;
   font-weight: 400;
   white-space: nowrap;
 }
-table td:first-of-type {
+
+/*table td:first-of-type {
   width: 100%;
   font-weight: 500;
 }
