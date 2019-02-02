@@ -172,10 +172,11 @@ table .button {
   border-radius: 2px;
 }
 
-/*input[type="checkbox"]:checked ~ label {
+input[type="checkbox"]:checked~label {
   background-color: #5C6BC0;
 }
-input[type="checkbox"]:checked ~ label:before {
+
+/*input[type="checkbox"]:checked ~ label:before {
   content: "Switch to Style 2";
 }
 input[type="checkbox"]:checked ~ table tr:nth-child(2n) td {
