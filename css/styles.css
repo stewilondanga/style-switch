@@ -123,11 +123,12 @@ table td {
   white-space: nowrap;
 }
 
-/*table td:first-of-type {
+table td:first-of-type {
   width: 100%;
   font-weight: 500;
 }
-table td.with--button {
+
+/*table td.with--button {
   padding: 0;
 }
 @media screen and (max-width: 630px) {
