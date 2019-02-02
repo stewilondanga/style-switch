@@ -29,17 +29,15 @@ body {
   height: 1.5em;
 }
 
-/*
-
 * {
   box-sizing: border-box;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-input[type="checkbox"] {
+/*input[type="checkbox"] {
   display: none;
 }
 input[type="checkbox"] ~ label {
