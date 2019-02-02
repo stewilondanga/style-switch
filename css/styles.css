@@ -61,7 +61,7 @@ input[type="checkbox"]~label:before {
   content: "Switch to Style 1";
 }
 
-/*.button {
+.button {
   outline: none !important;
   text-decoration: none;
   line-height: 1rem;
@@ -70,7 +70,7 @@ input[type="checkbox"]~label:before {
   outline: none;
 }
 
-table {
+/*table {
   position: relative;
   width: 100%;
   max-width: 700px;
